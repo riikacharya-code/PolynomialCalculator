@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Monomial
+comment0.text=\r\n\ This\ represents\ an\ instance\ of\ a\ monomial,\ which\ contains\ a\ coefficient\ and\ an\ exponent.\r\n\ \r\n@author\:\ Riik\ Acharya\r\n@version\:\ 1.0\r\n
+comment1.params=coef\ exp
+comment1.target=Monomial(double,\ int)
+comment1.text=\r\n\ Takes\ in\ a\ coefficient\ and\ an\ exponent\ and\ makes\ a\ monomial\r\n\ @param\ double\ coef,\ int\ exp\r\n\ @return\ Monomial\r\n
+comment2.params=
+comment2.target=double\ getCoef()
+comment2.text=\r\n\ Returns\ coefficient\r\n
+comment3.params=
+comment3.target=int\ getExp()
+comment3.text=\r\n\ Returns\ exponent\r\n
+numComments=4

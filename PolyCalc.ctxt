@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=PolyCalc
+comment0.text=\r\n\ This\ is\ the\ PolyCalc\ class\ which\ runs\ a\ polynomial\ calculator.\r\n\ The\ user\ enters\ two\ Polynomials\ and\ an\ operator\ and\ a\ result\ is\ displayed\r\n\r\n\ @author\ Riik\ Acharya\r\n\ @version\ 1.0\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=Main\ method\ of\ PolyCalc\ class
+numComments=2
