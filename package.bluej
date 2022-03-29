@@ -1,12 +1,12 @@
 #BlueJ package file
-dependency1.from=Text
+dependency1.from=PolyCalc
 dependency1.to=Poly
 dependency1.type=UsesDependency
-dependency2.from=PolyCalc
-dependency2.to=Poly
+dependency2.from=Poly
+dependency2.to=Monomial
 dependency2.type=UsesDependency
-dependency3.from=Poly
-dependency3.to=Monomial
+dependency3.from=Text
+dependency3.to=Poly
 dependency3.type=UsesDependency
 dependency4.from=PolyTest
 dependency4.to=Poly
@@ -22,7 +22,7 @@ package.divider.vertical=0.8664596273291926
 package.editor.height=551
 package.editor.width=1252
 package.editor.x=0
-package.editor.y=0
+package.editor.y=72
 package.frame.height=744
 package.frame.width=1382
 package.numDependencies=4
