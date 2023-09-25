@@ -1,8 +1,6 @@
 
 /**
- * This is the Text interface, and it represents signatures of methods used by classes 
- * that implement this interface.
- *
+ * 
  * @author Riik Acharya
  * @version 1.0
  */
@@ -43,12 +41,11 @@ public interface Text
      * the polynomial passed in as an argument, p, and returns a new polynomial
      * with the resulting quotient. I.e., it returns "this / p".
      * 
-     * The division should be performed according to the polynomial long division algorithm
+     * The division is performed according to the polynomial long division algorithm
      * ( https://en.wikipedia.org/wiki/Polynomial_long_division ).
      * 
-     * Polynomial division may end with a non-zero remainder, which means the polynomials are
-     * indivisible. In this case the method should return null. A division by zero should also
-     * yield a null return value.
+     * If polynomial division ends with a non-zero remainder, the polynomials are
+     * indivisible so the method returns null. A division by zero also returns null.
      * 
      * @param p the polynomial to be multiplied by the polynomial on which the method is called on.
      * @return a polynomial representing the quotient of the division, or null if they're indivisible.
@@ -71,38 +68,10 @@ public interface Text
     
     /**
      * Returns a textual representation of the polynomial the method is called on.
-     * The textual representation should be a sum of monomials, with each monomial 
+     * The textual representation is a sum of monomials, with each monomial 
      * being defined by a double coefficient, the letters "x^", and an integer exponent.
-     * Exceptions to this rule: coefficients of 1.0 should be omitted, as should "^1",
+     * Exceptions to this rule: coefficients of 1.0 are omitted, as is "^1",
      * and "x^0".
-     * 
-     * Terms should be listed in decreasing-exponent order. Terms with zero-coefficient
-     * should be omitted. Each exponent can only appear once. 
-     * 
-     * Rules for separating terms, applicable to all terms other that the largest exponent one:
-     *   - Terms with positive coefficients should be preceeded by " + ".
-     *   - Terms with negative coefficients should be preceeded by " - ".
-     * 
-     * Rules for the highest exponent term (i.e., the first):
-     *   - If the coefficient is negative it should be preceeded by "-". E.g. "-3.0x^5".
-     *   - If the coefficient is positive it should not preceeded by anything. E.g. "3.0x^5".
-     * 
-     * The zero/empty polynomial should be represented as "0.0".
-     * 
-     * Examples of valid representations: 
-     *   - "2.0x^2 + 3.0"
-     *   - "3.5x + 3.0"
-     *   - "4.0"
-     *   - "-2.0x"
-     *   - "4.0x - 3.0"
-     *   - "0.0"
-     *   
-     * Examples of invalid representations: 
-     *   - "+2.0x^2+3.0x^0"
-     *   - "3.5x -3.0"
-     *   - "- 4.0 + x"
-     *   - "-4.0 + x^7"
-     *   - ""
      * 
      * @return a textual representation of the polynomial the method was called on.
      */
