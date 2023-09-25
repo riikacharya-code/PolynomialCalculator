@@ -6,8 +6,6 @@ import org.junit.runners.MethodSorters;
 /**
  * A class with unit tests for the Poly polynomial class.
  * 
- * We recommend you tackle them (i.e. try to make them pass) in the 
- * order they appear in this file.
  *
  * @author  Anna Gommerstadt & Rui Meireles
  * @version 1.0
